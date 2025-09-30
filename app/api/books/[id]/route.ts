@@ -15,7 +15,7 @@ export async function PUT (
 
 export async function DELETE (request: Request, context : {params : {id: string}}) {
     const id = +context.params.id;
-    const book = await request.json()
+    const books = await request.json()
 
     const index = books.findIndex(book => book.id === id);
     books.splice(index, 1);
