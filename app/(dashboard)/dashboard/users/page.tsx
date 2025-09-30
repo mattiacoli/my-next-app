@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 const Page = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const Page = () => {
           </li>
           <li>
             <Link href={"/dashboard/users/3"}>User 3</Link>
-          </li>
+          </li> 
         </ul>
       </div>
     </>
